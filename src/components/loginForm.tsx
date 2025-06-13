@@ -46,7 +46,7 @@ export default function AmazonLogin() {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:8081/account", {
+      const response = await fetch("https://than-2211110134-be.onrender.com/account", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

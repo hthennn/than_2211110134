@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { AuthState } from "@/types/types";
 
-const baseURL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8081";
+const baseURL = process.env.NEXT_PUBLIC_API_URL || "https://than-2211110134-be.onrender.com";
 
 // Cookie management helpers
 class CookieManager {
