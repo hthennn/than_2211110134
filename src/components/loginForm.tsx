@@ -131,7 +131,8 @@ export default function AmazonLogin() {
               </Button>
 
               <div className="text-xs text-gray-600">
-                By continuing, you agree to Amazon's{" "}
+                <p> By continuing, you agree to Amazons&apos;s{" "}</p>
+               
                 <a
                   href="#"
                   className="text-blue-600 hover:text-orange-600 hover:underline"

@@ -18,7 +18,7 @@ class CookieManager {
 
     if (options.expires) {
       const date = new Date();
-      date.setTime(date.getTime() + options.expires * 24 * 60 * 60 * 1000);dddd
+      date.setTime(date.getTime() + options.expires * 24 * 60 * 60 * 1000);
       cookieString += `; expires=${date.toUTCString()}`;
     }
 
